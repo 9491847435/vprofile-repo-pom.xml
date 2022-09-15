@@ -119,6 +119,7 @@
     		<scope>test</scope>
 		</dependency>
     </dependencies>
+<<<<<<< HEAD
     <build>  
         <plugins>
 	    <plugin>
@@ -129,6 +130,10 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
+=======
+    <build>
+        <plugins>
+>>>>>>> dcc9ff7 (secondcommit)
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
@@ -144,7 +149,11 @@
 		    <plugin>
 		        <groupId>org.jacoco</groupId>
 		        <artifactId>jacoco-maven-plugin</artifactId>
+<<<<<<< HEAD
 		        <version>0.8.3</version>
+=======
+		        <version>0.7.2.201409121644</version>
+>>>>>>> dcc9ff7 (secondcommit)
 		        <executions>
 		            <execution>
 		                <id>jacoco-initialize</id>
@@ -165,3 +174,7 @@
         </plugins>
     </build>
 </project>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dcc9ff7 (secondcommit)
