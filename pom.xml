@@ -129,7 +129,6 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-    <build>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
